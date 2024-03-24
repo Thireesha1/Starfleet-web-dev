@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Ysabeau:wght@200;300;500;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    scroll-behavior:smooth;
+         font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --bg-color:#121314;
+    --s-bg-color:#121314;
+    --text-color:#fff;
+    --main-color:rgb(165, 48, 145);
+
+}
+body{
+    background-color: var(--bg-color);
+    color:var(--text-color);
+    overflow-x: hidden;
+    height:100vh;
+    width:100%;}
+
+    .skill-content{
+        width:70%;
+        padding:20px;
+        height:70%; 
+        margin-top:100px;
+        margin-bottom: 10px;
+        padding:30px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .s-left img{
+        box-shadow:  10px 12px 20px var(--main-color);
+        
+    }
+    .s-right{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      
+        
+    }
+    .s-right .h2{
+        margin-bottom: 10px;
+    }
+    .para1{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .s-right span{
+        color:var(--main-color);
+    }
+    progress{
+        width:90%;
+        margin:15px;
+        height:10px;
+        color:var(--main-color);
+        background-color: transparent;
+    }
+    progress:hover{
+      box-shadow: 0 0 1rem --main-color ; 
+    }
+    
+    label{
+        display: flex;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    
+    
+    progress::-webkit-progress-value {
+       background-color: var(--main-color);
+    }
+    
+    progress:hover:after {
+        display:inline;
+        content: attr(value);
+        color:#fff;
+        transition: 1s;
+    }
+    .btn{
+        height: 2rem;
+        width:150px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        display:inline-flex;
+        background-color: var(--main-color);
+        color: var(--text-color);
+        border-radius: 40px;
+        padding: 10px 10px;
+        margin-top: 10%;
+        box-shadow: 0 0 1rem var(--main-color);
+    
+    }
+    .btn:hover{
+        box-shadow: none;
+        transition: 1.2s;
+    }    

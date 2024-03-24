@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Ysabeau:wght@200;300;500;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    scroll-behavior:smooth;
+         font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --bg-color:#121314;
+    --s-bg-color:#121314;
+    --text-color:#fff;
+    --main-color:rgb(165, 48, 145);}
+    body{
+        background-color: var(--bg-color);
+        color:var(--text-color);
+        overflow-x: hidden;
+        height:100vh;
+        width:100%;
+    
+    }
+
+    .title span{
+        color:var(--main-color)
+    }
+    .title{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .container{
+        position: relative;
+        width: auto;
+        height: 300px;
+        margin-top: 100px;
+        justify-content: space-between;
+        display: flex;
+        margin-left: 20px;
+    }
+    .container .box{
+        position: relative;
+        background: white;
+        float: left;
+        margin: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        display: flex;
+    }
+    .fa{
+    color: black;
+  }
+  .theory{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-right: 150px;
+  }
+  .btn{
+    height: 2rem;
+    width:150px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    background-color:rgb(165, 48, 145);
+    color:white;
+    border-radius: 40px;
+    padding: 10px 10px;
+    margin-top: 15%;
+    box-shadow: 0 0 1rem var(--main-color);}
+   
+    .container .box:hover .content{
+        top: 100px;
+        opacity: 1;
+    }
+    .container .box .content h3{
+        margin: 0 0 10px;
+        padding: 5px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 10px;
+        color:var(--main-color)
+
+    }
+    .container .box .content p{
+        margin: 0;
+        padding: 5px;
+        color:black;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .btn-1{
+        height: 2rem;
+        width:150px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        display:inline-flex;
+        background-color:rgb(241, 230, 73);
+        color:black;
+        border-radius: 40px;
+        padding: 10px 10px;
+        margin-left: 600px;
+        margin-top: 18px;
+        box-shadow: 0 0 1rem var(--main-color);}
+    
